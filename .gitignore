@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.env
+.venv
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Project specific
+data/reports/
+data/cache/
+*.log
+*.db
+
+# Secrets
+credentials.json
+*.key
+*.pem
+
+# Cloud Run
+.gcloudignore
